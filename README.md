@@ -22,3 +22,5 @@ Circuit details:
 - +CC - a differential amplifier that forms a Howland current source, threshold set by CV reference
 - -CV and -CC are not very straightforward - CV forms a "null detector" that tries to maintain 0V at the summing junction of the CV reference and output voltage through appropriately scaled resistors, while the CC differential amplifier sets the summing junction voltage, increasing it if the current limit is reached and therefore reducing output voltage
 - MOSFET gate driver - a slightly modified "AB" amplifier to increase the op-amp output current enough to drive the MOSFET gate to higher voltages.
+
+![Schematic](https://github.com/NNNIIndia/CC-CV-Linear-Power-Supply/blob/main/KiCAD/CC%20CV%20Power%20Supply%20Rev%203-1.jpg)
