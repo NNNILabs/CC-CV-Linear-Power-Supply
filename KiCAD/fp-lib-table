@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name animefootpint)(type KiCad)(uri ${KIPRJMOD}/animefootpint.pretty)(options "")(descr ""))
+)
